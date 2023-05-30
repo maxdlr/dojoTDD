@@ -1,0 +1,17 @@
+{
+    "name": "maxro/dojo-tdd",
+    "autoload": {
+        "psr-4": {
+            "Maxro\\DojoTdd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maxdlr",
+            "email": "105718327+maxdlr@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "10"
+    }
+}
