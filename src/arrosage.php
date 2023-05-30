@@ -12,8 +12,8 @@
     for ($i=0; $i < count($plants); $i++) { 
         $plants[$i]['waterLevel'] += 20;
         if (
-            $plants[$i]['minimum'] &&
-            $plants[$i]['waterLevel'] >= $plants[$i]['minimum']
+            isset($plants[$i]['minimum']) &&
+            $plants[$i]['waterLevel'] <= $plants[$i]['minimum']
             )
         {
             $plants[$i]['waterLevel'] = $plants[$i]['minimum'];
