@@ -1,6 +1,6 @@
 <?php
 
-require_once '../src/arrosage.php';
+require_once 'src/arrosage.php';
 
 use PHPUnit\Framework\TestCase;
 
